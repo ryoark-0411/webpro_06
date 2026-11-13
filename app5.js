@@ -23,10 +23,6 @@ let station2 = [
   { id:7, code:"JE18", name:"蘇我駅", change:"内房線，外房線", passengers:31328, distance:43.0 },
 ];
 
-let soccer = [
-  {id:1, code:"", name:""},
-  {id:2, code:}
-]
 
 app.get("/keiyo", (req, res) => {
   // 本来ならここにDBとのやり取りが入る
